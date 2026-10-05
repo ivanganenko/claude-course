@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit(PROGRESS.md)",
+      "Write(PROGRESS.md)",
+      "Bash(date)",
+      "Bash(ls *)",
+      "Bash(python --version)",
+      "Bash(python3 --version)",
+      "Bash(git --version)",
+      "Bash(claude --version)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./**/.env)"
+    ]
+  }
+}

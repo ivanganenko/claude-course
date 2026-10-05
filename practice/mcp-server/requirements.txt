@@ -1,0 +1,3 @@
+# Официальный Python SDK для MCP. Версия ограничена <2: в версии 2.x класс FastMCP
+# переименован, и код из курса (from mcp.server.fastmcp import FastMCP) не запустится.
+mcp[cli]>=1.2,<2

@@ -1,0 +1,15 @@
+# Личные настройки Claude Code — не коммитим
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
